@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:background="@color/indio"
+    android:id="@+id/main_toolbar"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        >
+
+        <ImageButton
+            android:id="@+id/menu_or_home"
+            android:layout_height="fill_parent"
+            android:layout_width="wrap_content"
+            android:visibility="gone"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="0.1"
+            android:src="@drawable/ic_menu_black_24dp"
+            android:background="@color/indio"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/title"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="@string/allmsg"
+            android:layout_weight="0.8"
+            android:visibility="visible"
+            android:textSize="@dimen/text_size_large"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/searchtext"
+            android:gravity="left"
+            android:visibility="gone"
+            android:textColor="@color/white"
+            android:layout_weight="0.8"
+            android:id="@+id/searchTxt"/>
+
+        <ImageButton
+            android:id="@+id/createBtn"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/ic_create_black_24dp"
+            android:layout_weight="0.1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@color/indio"
+            />
+        <ImageButton
+            android:id="@+id/searchBtn"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:background="@color/indio"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:src="@drawable/ic_search_black_24dp"
+            android:layout_weight="0.1"
+            />
+    </LinearLayout>
+</android.support.v7.widget.Toolbar>

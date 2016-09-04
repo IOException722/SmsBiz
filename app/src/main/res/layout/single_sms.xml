@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:id="@+id/singlerow"
+    android:layout_marginBottom="1dp"
+    android:background="@color/white"
+    android:paddingLeft="@dimen/left"
+    android:paddingRight="@dimen/left"
+    android:paddingTop="@dimen/small"
+    android:paddingBottom="@dimen/small">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/recieved"
+        android:textColor="@color/white"
+        android:text="Received"
+        android:padding="@dimen/small"
+        android:gravity="left"
+        android:visibility="gone"
+        android:background="@drawable/drawable_blue"
+        android:layout_alignParentLeft="true"
+       />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/rellyt"
+        android:layout_toRightOf="@id/recieved"
+        android:layout_toLeftOf="@id/sending"
+      >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/senderId"
+            android:text="8090470606"
+            android:textSize="@dimen/text_size"
+            android:background="@color/white"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/senderCount"
+            android:text="10"
+            android:textSize="@dimen/text_size_small"
+            android:layout_marginLeft="@dimen/left"
+            android:layout_toRightOf="@id/senderId"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/timeDate"
+            android:layout_below="@id/senderId"
+            android:visibility="visible"
+            android:textSize="10sp"
+            android:text="17 jul"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            android:id="@+id/linlyt"
+            android:layout_below="@id/senderCount"
+            android:layout_marginTop="@dimen/small"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/messageDetails"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textSize="@dimen/text_size_small"
+                android:layout_weight="1"
+                android:text="Hi, This is Abhay, how you doin ddsk sadjk sdajkds sdjs sdkj ?"/>
+
+            <View
+                android:id="@+id/view_membership_det"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"
+                android:visibility="gone"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/timeStamp"
+                android:maxLines="1"
+                android:text="27 Aug"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@id/sending"
+        android:textColor="@color/white"
+        android:background="@drawable/drawable_blue"
+        android:text="Sent"
+        android:gravity="left"
+        android:visibility="gone"
+        android:layout_alignParentRight="true"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+
+
+Data Science/Machine Learning Intern
+Linkedin Project:
+-Extracted useful data from large database and removed impure data
+- Applied thermodynamic, statistical and mathematical models to draw intelligence out of extracted data
+- Predicted temperature and corresponding fuel consumption for cargo heating accurately
+- Implemented projection plan for cargo heating using predicted temperature
+- Worked together with web team to make an online web application(E-Therm) for above
+-Certificate: https://github.com/Abhaykrpt94y11/ML/blob/master/Certi.pdf
+
+
+Number Plate Text Recognition (Course project: Machine Learning: Tools, techniques, applications )
+– It reads registration-number of 4 wheeler vehicles in a video in real time.
+– It extracts frames from video and use k-nn classifier to recognize characters in the extracted license plate region.
+– Report: https://github.com/Abhaykrpt94y11/MLT/blob/master/report.pdf
+– Assignments: https://github.com/Abhaykrpt94y11/MLT

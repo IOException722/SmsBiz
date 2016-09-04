@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="sendSms" type="id" />
+    <item name="compose" type="id"/>
+    <item name="sending" type="id"/>
+</resources>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SmsBiz</string>
+    <string name="search">Search</string>
+    <string name="phoneHint">Please enter contact number</string>
+    <string name="msgHint">Message</string>
+    <string name="send">SEND</string>
+    <string name="allmsg">All message</string>
+    <string name="searchtext">Enter search text</string>
+    <string name="retry">Tap to retry</string>
+    <string name="newmsg">New message</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_send_notification">SendNotification</string>
+    <string name="sent">Sent</string>
+    <string name="inbox">Inbox</string>
+    <string name="draft">Draft</string>
+</resources>
