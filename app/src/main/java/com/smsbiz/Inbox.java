@@ -350,6 +350,13 @@ public class Inbox extends AppCompatActivity implements View.OnClickListener {
         @Override
         public int getItemCount() {
             return (!searchedText.equalsIgnoreCase("") && searchedBtnClicked)?searchResults.size():groupById.size();        }
+
+        @Override
+        public int getItemViewType(int position) {
+
+            return position;
+        }
+
     }
     private String getDate(long time) {
         Calendar cal = Calendar.getInstance(Locale.ENGLISH);

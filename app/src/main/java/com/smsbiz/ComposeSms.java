@@ -316,6 +316,12 @@ public class ComposeSms extends AppCompatActivity implements View.OnClickListene
         public int getItemCount() {
             return messageList.size();
         }
+
+        @Override
+        public int getItemViewType(int position) {
+
+            return position;
+        }
     }
 
     private String getDate(long time) {
